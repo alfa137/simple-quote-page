@@ -54,7 +54,7 @@ color: rgba(255,255,255,0.8);
 transition: background-color .30s ease-in-out;
 }
 
-.button-english {background-color: rgba(200,100,0,0.6);}
+.button-french {background-color: rgba(200,100,0,0.6);}
 
 @media (min-width: 768px) {
   h1 {font-size: 3rem;
