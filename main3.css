@@ -10,11 +10,10 @@ body {
 }
     
 .text {
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-left: 1rem;
     padding-right: 1rem;
 }
-
   
 h1 {font-family: 'Open-sans', sans-serif;
     font-size: 1.5rem;
@@ -29,8 +28,9 @@ h2 {font-family: 'Lora', serif;
 }
 
 
-.btn {text-align: center;
-margin-top: 16rem;
+.btn {
+    padding-top: 2rem;  
+    text-align: center;
 }
 
 /* The base of every button */
@@ -61,20 +61,20 @@ transition: background-color .30s ease-in-out;
       padding: 0 1rem;}
   h2 {font-size: 1.5rem;
       padding: 0 1rem;}
-.btn {margin-top: 25rem;}
+.btn {padding-top: 3rem;}
 .button {width: 8rem;
       font-size: 120%;}
   
 } 
 @media (min-width: 1440px) {
   .button { padding: 1rem 0.5rem;}
-  h1 {padding: 4rem 2rem;}
+  h1 {padding: 1rem 2rem;}
   h2 {padding: 0 2rem;}
-  .btn {margin-top: 18rem;}
+  .btn {padding-top: 3rem;}
 }
 
 @media (min-width: 1920px) {
-  .btn {margin-top: 18rem;}
+  .btn {padding-top: 4rem;}
 }
 
 
